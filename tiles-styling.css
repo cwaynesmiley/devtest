@@ -1,0 +1,50 @@
+body {
+  max-width: 70%;
+  margin: 30px auto;
+  border: 1px solid #333;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 130%;
+  padding-bottom: 5px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+p {
+  line-height: 180%;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+#area {
+  border-bottom: 5px solid #dd4760;
+}
+
+#news {
+  border-bottom: 5px solid #235465;
+}
+
+#inspirational {
+  border-bottom: 5px solid #6ba43b;
+}
+
+.article-container {
+  display: flex;
+}
+
+article {
+  flex-grow: 1;
+  padding: 0 40px 0 0;
+}
+
+.article-image {
+  max-width: 100%;
+  border: 1px solid #333;
+}
