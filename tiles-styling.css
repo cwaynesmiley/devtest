@@ -11,8 +11,13 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 5px;
 }
 
+h2 {
+  margin-right: 18px;
+}
+
 h4 {
   font-size: 22px;
+  margin: 5px 0 0;
 }
 
 p {
@@ -36,15 +41,28 @@ section {
 }
 
 .article-container {
-  display: flex;
+  display: flex;  
 }
 
 article {
   flex-grow: 1;
-  padding: 0 40px 0 0;
+  padding: 0 20px 0 0;
 }
 
 .article-image {
   max-width: 100%;
   border: 1px solid #333;
+}
+
+@media screen and (max-width: 667px) {
+  section {
+    margin-bottom: 20px;
+  }  
+  
+  .article-container {flex-wrap: wrap;
+}
+  article {
+    margin-bottom: 20px;
+  }
+  
 }
