@@ -1,23 +1,56 @@
 <!DOCTYPE HTML>
+<html>
 <head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Article</title>
 </head>
 
 <body>
 <main>
-<h2>Subtitle</h2>
-<h1>Title of the section</h1>
-<section>This is where the images will go.</section>
+<h2 id="subtitle">Subtitle</h2>
+<h1 id="title">Title of the section</h1>
+<section>
+  <div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="https://raw.githubusercontent.com/cwaynesmiley/devtest/master/images/photo01.jpg" style="width:100%">
+  <div class="text"><strong>Caption Title</strong><br />
+Caption for the image</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://raw.githubusercontent.com/cwaynesmiley/devtest/master/images/photo04.jpg" style="width:100%">
+  <div class="text"><strong>Caption Two</strong><br />
+Caption for the image</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://raw.githubusercontent.com/cwaynesmiley/devtest/master/images/photo03.jpg" style="width:100%">
+  <div class="text"><strong>Caption Three</strong><br />
+Caption for the image</div>
+</div>
+  
+  <div class="mySlides fade">
+  <img src="https://raw.githubusercontent.com/cwaynesmiley/devtest/master/images/photo02.jpg" style="width:100%">
+  <div class="text"><strong>Caption Four</strong><br />
+Caption for the image</div>
+</div>
+</div>
+
+<div style="text-align: center; max-width: 1000px; margin: auto; min-height: 65px;">
+  <span class="thumbnail" onclick="currentSlide(1)" style="background-image: url('http://cwaynesmiley.com/wp-content/uploads/2017/01/Image-One.jpg');"></span> 
+  <span class="thumbnail" onclick="currentSlide(2)" style="background-image: url('http://cwaynesmiley.com/wp-content/uploads/2017/01/Image-Two.jpg');"></span> 
+  <span class="thumbnail" onclick="currentSlide(3)" style="background-image: url('http://cwaynesmiley.com/wp-content/uploads/2017/01/Image-Three.jpg');"></span> 
+  <span class="thumbnail" onclick="currentSlide(4)" style="background-image: url('http://cwaynesmiley.com/wp-content/uploads/2017/01/Image-Four.jpg');"></span>
+</div></section>
 
 <section><p>Quisque id mi. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. 
 Sed cursus turpis vitae tortor. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit 
 amet eros. Quisque malesuada placerat nisl.</p>
 
-<div style="border-bottom: 1px solid #333;">
-  <video width="400" controls>
-    <source src="movie.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p><strong>Video title</strong><br />
+<div style="border-bottom: 1px solid #333; float: right; clear: both; margin: 0 0 10px 10px;">
+  <iframe src="https://www.youtube.com/embed/kkLWL7y9CYA" frameborder="0" allowfullscreen></iframe>
+  <p style="margin: 0;"><strong>Video title</strong><br />
   video caption for some stuff</p>
 </div>
 <p>Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla 
