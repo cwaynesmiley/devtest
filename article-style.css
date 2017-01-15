@@ -1,0 +1,90 @@
+body {
+  max-width: 70%;
+  margin: 30px auto;
+  border: 1px solid #333;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 130%;
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 180%;
+}
+
+#title {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+#subtitle {
+  margin: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hiding slides until we're ready to see them */
+.mySlides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: #333;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: auto;
+  text-align: left;
+}
+
+/* The thumbnails */
+.thumbnail {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin: 0 2px;
+  float: right;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+img {
+  max-height: 667px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
