@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -22,4 +22,31 @@ p {
 
 .snippet {
   display: flex;
+}
+
+#post-category, #post-title {
+  margin: 0;
+}
+
+#teaser-section {
+  margin-bottom: 40px;
+}
+
+#hidden {
+  display: none;
+}
+
+#full-section-visible {
+  display: visible;
+}
+
+@media screen and (max-width: 1000px) {
+ #hidden {
+  display: inherit !important;
+}
+  
+  #teaser-section {
+    display: none !important;
+  }
+  
 }
